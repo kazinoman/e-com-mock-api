@@ -1,0 +1,817 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 14 Pro Plus Max Black Edition",
+      "category": "gadgets",
+      "subCategory": "apple",
+      "brand": "Apple",
+      "price": 1234.99,
+      "originalPrice": 1234.99,
+      "rating": 4.9,
+      "badge": "Out of stock",
+      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
+    },
+    {
+      "id": 2,
+      "title": "iPhone 14 Pro Plus Max Black Edition",
+      "category": "gadgets",
+      "subCategory": "apple",
+      "brand": "Apple",
+      "price": 1234.99,
+      "originalPrice": 1234.99,
+      "rating": 4.9,
+      "badge": "Sale",
+      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
+    },
+    {
+      "id": 3,
+      "title": "iPhone 14 Pro Plus Max Black Edition",
+      "category": "gadgets",
+      "subCategory": "apple",
+      "brand": "Apple",
+      "price": 1234.99,
+      "originalPrice": 1234.99,
+      "rating": 4.9,
+      "badge": "5% off",
+      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
+    },
+    {
+      "id": 4,
+      "title": "Luxury Handbag",
+      "category": "bags",
+      "subCategory": "laptop-bag",
+      "brand": "Generic",
+      "price": 133.24,
+      "originalPrice": null,
+      "rating": 4.5,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&q=80"
+    },
+    {
+      "id": 5,
+      "title": "Google Pixel 8 Pro",
+      "category": "gadgets",
+      "subCategory": "apple",
+      "brand": "Generic",
+      "price": 79.57,
+      "originalPrice": null,
+      "rating": 4.3,
+      "badge": "Out of stock",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
+    },
+    {
+      "id": 6,
+      "title": "Anti-colic Baby Bottle",
+      "category": "baby-items",
+      "subCategory": "baby-bottle",
+      "brand": "Generic",
+      "price": 123.27,
+      "originalPrice": null,
+      "rating": 4.4,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=500&q=80"
+    },
+    {
+      "id": 7,
+      "title": "Winter Baby Jacket",
+      "category": "baby-items",
+      "subCategory": "baby-bottle",
+      "brand": "Generic",
+      "price": 198.28,
+      "originalPrice": null,
+      "rating": 4.9,
+      "badge": "Out of stock",
+      "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=500&q=80"
+    },
+    {
+      "id": 8,
+      "title": "Baby Party Dress",
+      "category": "baby-items",
+      "subCategory": "baby-jacket",
+      "brand": "Generic",
+      "price": 383.19,
+      "originalPrice": null,
+      "rating": 4.7,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=500&q=80"
+    },
+    {
+      "id": 9,
+      "title": "Newborn Gift Set",
+      "category": "baby-items",
+      "subCategory": "baby-jacket",
+      "brand": "Generic",
+      "price": 50,
+      "originalPrice": null,
+      "rating": 4.6,
+      "badge": "Out of stock",
+      "image": "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=500&q=80"
+    },
+    {
+      "id": 10,
+      "title": "Minimalist Gold Anklet",
+      "category": "jewelry",
+      "subCategory": "earrings",
+      "brand": "Generic",
+      "price": 381.26,
+      "originalPrice": null,
+      "rating": 4.9,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&q=80"
+    },
+    {
+      "id": 11,
+      "title": "Travel Suitcase 4-Wheel",
+      "category": "bags",
+      "subCategory": "purse",
+      "brand": "Generic",
+      "price": 258.88,
+      "originalPrice": 272.51,
+      "rating": 5,
+      "badge": "5% off",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&q=80"
+    },
+    {
+      "id": 12,
+      "title": "Minimalist Wallet",
+      "category": "bags",
+      "subCategory": "backpack",
+      "brand": "Generic",
+      "price": 219.93,
+      "originalPrice": 244.37,
+      "rating": 4.5,
+      "badge": "Sale",
+      "image": "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=500&q=80"
+    },
+    {
+      "id": 13,
+      "title": "Google Pixel 8 Pro",
+      "category": "gadgets",
+      "subCategory": "samsung",
+      "brand": "Generic",
+      "price": 489.16,
+      "originalPrice": null,
+      "rating": 4,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
+    },
+    {
+      "id": 14,
+      "title": "Samsung Galaxy S23 Ultra",
+      "category": "gadgets",
+      "subCategory": "asus",
+      "brand": "Generic",
+      "price": 148.89,
+      "originalPrice": null,
+      "rating": 4.4,
+      "badge": "Out of stock",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80"
+    },
+    {
+      "id": 15,
+      "title": "Google Pixel 8 Pro",
+      "category": "gadgets",
+      "subCategory": "apple",
+      "brand": "Generic",
+      "price": 420.87,
+      "originalPrice": null,
+      "rating": 4.6,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
+    },
+    {
+      "id": 16,
+      "title": "Travel Suitcase 4-Wheel",
+      "category": "bags",
+      "subCategory": "purse",
+      "brand": "Generic",
+      "price": 95.85,
+      "originalPrice": 115.02,
+      "rating": 4.1,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=500&q=80"
+    },
+    {
+      "id": 17,
+      "title": "18k Gold Necklace",
+      "category": "jewelry",
+      "subCategory": "bracelet",
+      "brand": "Generic",
+      "price": 111.49,
+      "originalPrice": null,
+      "rating": 4.3,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&q=80"
+    },
+    {
+      "id": 18,
+      "title": "Google Pixel 8 Pro",
+      "category": "gadgets",
+      "subCategory": "google",
+      "brand": "Generic",
+      "price": 482.3,
+      "originalPrice": 578.76,
+      "rating": 4.9,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
+    },
+    {
+      "id": 19,
+      "title": "Silver Charm Bracelet",
+      "category": "jewelry",
+      "subCategory": "ring",
+      "brand": "Generic",
+      "price": 354.61,
+      "originalPrice": 373.27,
+      "rating": 4.3,
+      "badge": "5% off",
+      "image": "https://images.unsplash.com/photo-1599643478514-4a420922880b?w=500&q=80"
+    },
+    {
+      "id": 20,
+      "title": "Google Pixel 8 Pro",
+      "category": "gadgets",
+      "subCategory": "huawei",
+      "brand": "Generic",
+      "price": 383.11,
+      "originalPrice": null,
+      "rating": 4.1,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
+    },
+    {
+      "id": 21,
+      "title": "Premium Leather Backpack",
+      "category": "bags",
+      "subCategory": "hand-bag",
+      "brand": "Generic",
+      "price": 424.65,
+      "originalPrice": 447,
+      "rating": 4.9,
+      "badge": "5% off",
+      "image": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=500&q=80"
+    },
+    {
+      "id": 22,
+      "title": "Minimalist Gold Anklet",
+      "category": "jewelry",
+      "subCategory": "bangle",
+      "brand": "Generic",
+      "price": 72.08,
+      "originalPrice": null,
+      "rating": 4.3,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&q=80"
+    },
+    {
+      "id": 23,
+      "title": "Asus ROG Zephyrus G14",
+      "category": "gadgets",
+      "subCategory": "samsung",
+      "brand": "Generic",
+      "price": 79.46,
+      "originalPrice": null,
+      "rating": 4.4,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&q=80"
+    },
+    {
+      "id": 24,
+      "title": "Anti-colic Baby Bottle",
+      "category": "baby-items",
+      "subCategory": "baby-gift-set",
+      "brand": "Generic",
+      "price": 454.96,
+      "originalPrice": 505.51,
+      "rating": 4.6,
+      "badge": "10% off",
+      "image": "https://images.unsplash.com/photo-1544126592-807ade215a0b?w=500&q=80"
+    },
+    {
+      "id": 25,
+      "title": "Vitamin C Face Serum",
+      "category": "beauty-products",
+      "subCategory": "face-serum",
+      "brand": "Generic",
+      "price": 76.06,
+      "originalPrice": null,
+      "rating": 4.9,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bf85033e5a?w=500&q=80"
+    },
+    {
+      "id": 26,
+      "title": "Business Briefcase",
+      "category": "bags",
+      "subCategory": "backpack",
+      "brand": "Generic",
+      "price": 287.91,
+      "originalPrice": 359.89,
+      "rating": 4.4,
+      "badge": "20% off",
+      "image": "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=500&q=80"
+    },
+    {
+      "id": 27,
+      "title": "Travel Suitcase 4-Wheel",
+      "category": "bags",
+      "subCategory": "laptop-bag",
+      "brand": "Generic",
+      "price": 398.4,
+      "originalPrice": null,
+      "rating": 4.7,
+      "badge": "Out of stock",
+      "image": "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=500&q=80"
+    },
+    {
+      "id": 28,
+      "title": "Huawei Mate 60 Pro",
+      "category": "gadgets",
+      "subCategory": "asus",
+      "brand": "Generic",
+      "price": 369.06,
+      "originalPrice": 388.48,
+      "rating": 4.2,
+      "badge": "5% off",
+      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
+    },
+    {
+      "id": 29,
+      "title": "iPhone 14 Pro Plus Max Black Edition",
+      "category": "gadgets",
+      "subCategory": "huawei",
+      "brand": "Generic",
+      "price": 436.81,
+      "originalPrice": null,
+      "rating": 4.2,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
+    },
+    {
+      "id": 30,
+      "title": "Hydrating Face Cream",
+      "category": "beauty-products",
+      "subCategory": "body-wash",
+      "brand": "Generic",
+      "price": 385.79,
+      "originalPrice": null,
+      "rating": 4,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=500&q=80"
+    },
+    {
+      "id": 31,
+      "title": "Minimalist Wallet",
+      "category": "bags",
+      "subCategory": "briefcase",
+      "brand": "Generic",
+      "price": 424.17,
+      "originalPrice": null,
+      "rating": 4.3,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&q=80"
+    },
+    {
+      "id": 32,
+      "title": "Organic Body Wash",
+      "category": "beauty-products",
+      "subCategory": "body-wash",
+      "brand": "Generic",
+      "price": 59.87,
+      "originalPrice": 66.52,
+      "rating": 4.8,
+      "badge": "Sale",
+      "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=500&q=80"
+    },
+    {
+      "id": 33,
+      "title": "Exfoliating Scrub",
+      "category": "beauty-products",
+      "subCategory": "face-serum",
+      "brand": "Generic",
+      "price": 293.96,
+      "originalPrice": null,
+      "rating": 4.2,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1596462502278-27bf85033e5a?w=500&q=80"
+    },
+    {
+      "id": 34,
+      "title": "Huawei Mate 60 Pro",
+      "category": "gadgets",
+      "subCategory": "apple",
+      "brand": "Generic",
+      "price": 27.99,
+      "originalPrice": 31.1,
+      "rating": 4.3,
+      "badge": "Sale",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
+    },
+    {
+      "id": 35,
+      "title": "Huawei Mate 60 Pro",
+      "category": "gadgets",
+      "subCategory": "huawei",
+      "brand": "Generic",
+      "price": 203.37,
+      "originalPrice": 214.07,
+      "rating": 4.7,
+      "badge": "5% off",
+      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
+    },
+    {
+      "id": 36,
+      "title": "Soft Cotton Baby Socks",
+      "category": "baby-items",
+      "subCategory": "baby-jacket",
+      "brand": "Generic",
+      "price": 174.37,
+      "originalPrice": null,
+      "rating": 4.6,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=500&q=80"
+    },
+    {
+      "id": 37,
+      "title": "Diamond Engagement Ring",
+      "category": "jewelry",
+      "subCategory": "bangle",
+      "brand": "Generic",
+      "price": 66.19,
+      "originalPrice": 73.54,
+      "rating": 4.5,
+      "badge": "10% off",
+      "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&q=80"
+    },
+    {
+      "id": 38,
+      "title": "Huawei Mate 60 Pro",
+      "category": "gadgets",
+      "subCategory": "asus",
+      "brand": "Generic",
+      "price": 206.34,
+      "originalPrice": 229.27,
+      "rating": 4.5,
+      "badge": "Sale",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
+    },
+    {
+      "id": 39,
+      "title": "Anti-colic Baby Bottle",
+      "category": "baby-items",
+      "subCategory": "baby-gift-set",
+      "brand": "Generic",
+      "price": 147.59,
+      "originalPrice": 177.11,
+      "rating": 4.7,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1544126592-807ade215a0b?w=500&q=80"
+    },
+    {
+      "id": 40,
+      "title": "Google Pixel 8 Pro",
+      "category": "gadgets",
+      "subCategory": "samsung",
+      "brand": "Generic",
+      "price": 154.05,
+      "originalPrice": 171.17,
+      "rating": 4.5,
+      "badge": "10% off",
+      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
+    },
+    {
+      "id": 41,
+      "title": "Luxury Handbag",
+      "category": "bags",
+      "subCategory": "purse",
+      "brand": "Generic",
+      "price": 72.42,
+      "originalPrice": null,
+      "rating": 4.5,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&q=80"
+    },
+    {
+      "id": 42,
+      "title": "Huawei Mate 60 Pro",
+      "category": "gadgets",
+      "subCategory": "asus",
+      "brand": "Generic",
+      "price": 282.28,
+      "originalPrice": 313.64,
+      "rating": 4.3,
+      "badge": "10% off",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&q=80"
+    },
+    {
+      "id": 43,
+      "title": "Minimalist Gold Anklet",
+      "category": "jewelry",
+      "subCategory": "bracelet",
+      "brand": "Generic",
+      "price": 384.7,
+      "originalPrice": 461.64,
+      "rating": 4.1,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&q=80"
+    },
+    {
+      "id": 44,
+      "title": "Minimalist Wallet",
+      "category": "bags",
+      "subCategory": "purse",
+      "brand": "Generic",
+      "price": 418.77,
+      "originalPrice": 523.46,
+      "rating": 4.9,
+      "badge": "20% off",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500&q=80"
+    },
+    {
+      "id": 45,
+      "title": "Minimalist Wallet",
+      "category": "bags",
+      "subCategory": "laptop-bag",
+      "brand": "Generic",
+      "price": 126.47,
+      "originalPrice": 133.13,
+      "rating": 4.5,
+      "badge": "5% off",
+      "image": "https://images.unsplash.com/photo-1547949003-9792a18a2601?w=500&q=80"
+    },
+    {
+      "id": 46,
+      "title": "Asus ROG Zephyrus G14",
+      "category": "gadgets",
+      "subCategory": "google",
+      "brand": "Generic",
+      "price": 63.17,
+      "originalPrice": null,
+      "rating": 4.2,
+      "badge": "Out of stock",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&q=80"
+    },
+    {
+      "id": 47,
+      "title": "Samsung Galaxy S23 Ultra",
+      "category": "gadgets",
+      "subCategory": "samsung",
+      "brand": "Generic",
+      "price": 319.76,
+      "originalPrice": 355.29,
+      "rating": 4.6,
+      "badge": "10% off",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
+    },
+    {
+      "id": 48,
+      "title": "Silver Charm Bracelet",
+      "category": "jewelry",
+      "subCategory": "bangle",
+      "brand": "Generic",
+      "price": 439.48,
+      "originalPrice": 527.38,
+      "rating": 4.4,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1599643478514-4a420922880b?w=500&q=80"
+    },
+    {
+      "id": 49,
+      "title": "Travel Suitcase 4-Wheel",
+      "category": "bags",
+      "subCategory": "laptop-bag",
+      "brand": "Generic",
+      "price": 433.6,
+      "originalPrice": 481.78,
+      "rating": 4.2,
+      "badge": "10% off",
+      "image": "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=500&q=80"
+    },
+    {
+      "id": 50,
+      "title": "Baby Party Dress",
+      "category": "baby-items",
+      "subCategory": "baby-dress",
+      "brand": "Generic",
+      "price": 124.3,
+      "originalPrice": null,
+      "rating": 4,
+      "badge": null,
+      "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=500&q=80"
+    }
+  ],
+  "categories": {
+    "success": true,
+    "message": "Filters fetched successfully",
+    "data": {
+      "filters": [
+        {
+          "key": "category",
+          "label": "Category",
+          "type": "tree",
+          "multiple": true,
+          "options": [
+            {
+              "value": "baby-items",
+              "label": "Baby Items",
+              "children": [
+                {
+                  "value": "baby-bottle",
+                  "label": "Baby Bottle"
+                },
+                {
+                  "value": "baby-dress",
+                  "label": "Baby Dress"
+                },
+                {
+                  "value": "baby-gift-set",
+                  "label": "Baby Gift Set"
+                },
+                {
+                  "value": "baby-jacket",
+                  "label": "Baby Jacket"
+                },
+                {
+                  "value": "baby-shoes",
+                  "label": "Baby Shoes"
+                },
+                {
+                  "value": "baby-skirt",
+                  "label": "Baby Skirt"
+                },
+                {
+                  "value": "baby-socks",
+                  "label": "Baby Socks"
+                }
+              ]
+            },
+            {
+              "value": "bags",
+              "label": "Bags",
+              "children": [
+                {
+                  "value": "backpack",
+                  "label": "Backpack"
+                },
+                {
+                  "value": "briefcase",
+                  "label": "Briefcases"
+                },
+                {
+                  "value": "card-holder",
+                  "label": "Card Holder"
+                },
+                {
+                  "value": "hand-bag",
+                  "label": "Hand Bag"
+                },
+                {
+                  "value": "laptop-bag",
+                  "label": "Laptop Bag"
+                },
+                {
+                  "value": "purse",
+                  "label": "Purse"
+                },
+                {
+                  "value": "suitcase",
+                  "label": "Suitcase"
+                },
+                {
+                  "value": "travel-bag",
+                  "label": "Travel Bag"
+                },
+                {
+                  "value": "wallet",
+                  "label": "Wallet"
+                }
+              ]
+            },
+            {
+              "value": "beauty-products",
+              "label": "Beauty",
+              "children": [
+                {
+                  "value": "body-wash",
+                  "label": "Body Wash"
+                },
+                {
+                  "value": "deodorant",
+                  "label": "Deodorant"
+                },
+                {
+                  "value": "face-serum",
+                  "label": "Face Serum"
+                }
+              ]
+            },
+            {
+              "value": "gadgets",
+              "label": "Gadgets",
+              "children": [
+                {
+                  "value": "apple",
+                  "label": "Apple"
+                },
+                {
+                  "value": "asus",
+                  "label": "Asus"
+                },
+                {
+                  "value": "google",
+                  "label": "Google"
+                },
+                {
+                  "value": "huawei",
+                  "label": "Huawei"
+                },
+                {
+                  "value": "samsung",
+                  "label": "Samsung"
+                }
+              ]
+            },
+            {
+              "value": "jewelry",
+              "label": "Jewelry",
+              "children": [
+                {
+                  "value": "anklet",
+                  "label": "Anklet"
+                },
+                {
+                  "value": "bangle",
+                  "label": "Bangle"
+                },
+                {
+                  "value": "bracelet",
+                  "label": "Bracelet"
+                },
+                {
+                  "value": "earrings",
+                  "label": "Earrings"
+                },
+                {
+                  "value": "necklace",
+                  "label": "Necklace"
+                },
+                {
+                  "value": "ring",
+                  "label": "Ring"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "meta": {
+      "timestamp": "2026-08-25T06:32:35.762Z"
+    }
+  },
+  "users": [
+    {
+      "id": 1,
+      "email": "john@doe.com",
+      "username": "johnd",
+      "password": "mypassword",
+      "name": {
+        "firstname": "john",
+        "lastname": "doe"
+      },
+      "address": {
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874",
+        "geolocation": {
+          "lat": "-37.3159",
+          "long": "81.1496"
+        }
+      },
+      "phone": "1-570-236-7033"
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "2020-03-02T00:00:00.000Z",
+      "products": [
+        {
+          "productId": 1,
+          "quantity": 4
+        },
+        {
+          "productId": 2,
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "quantity": 6
+        }
+      ]
+    }
+  ]
+}
