@@ -71,3 +71,20 @@ These endpoints are designed specifically for rendering dynamic sections on your
 - **Body**: JSON containing `username` and `password`.
 - **Credentials**: Use `username: "johnd"` and `password: "mypassword"`.
 - **Returns**: A mock JWT token and the user's ID.
+
+---
+
+## 6. Wishlists
+
+`GET /wishlists`
+- **Description**: Returns all wishlist items.
+- **Query Params**: `?userId=1` to filter by user. `?_expand=product` to include the full product object.
+- **Example**: `GET /wishlists?userId=1&_expand=product`
+
+`POST /wishlists`
+- **Description**: Add a product to the user's wishlist.
+- **Body**: JSON containing `userId` and `productId`.
+- **Example Body**: `{ "userId": 1, "productId": 5 }`
+
+`DELETE /wishlists/:id`
+- **Description**: Remove an item from the wishlist by the wishlist item's ID.

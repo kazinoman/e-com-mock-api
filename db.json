@@ -813,5 +813,17 @@
         }
       ]
     }
+  ],
+  "wishlists": [
+    {
+      "userId": 1,
+      "productId": 5,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "productId": 6,
+      "id": 2
+    }
   ]
 }
