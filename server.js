@@ -158,6 +158,26 @@ router.render = (req, res) => {
     timestamp: new Date().toISOString()
   };
   
+  let responseData = res.locals.data;
+  const isSingleProduct = req.path.match(/^\/products\/\d+$/);
+  if (isSingleProduct && responseData && !responseData.images) {
+    const templates = [1, 2, 3];
+    const randomTemplateId = templates[Math.floor(Math.random() * templates.length)];
+    const templateData = router.db.get('products').find({ id: randomTemplateId }).value();
+    if (templateData) {
+      responseData = {
+        ...responseData,
+        skus: templateData.skus,
+        images: templateData.images,
+        colors: templateData.colors,
+        seller: templateData.seller,
+        description: templateData.description,
+        specifications: templateData.specifications,
+        reviewsData: templateData.reviewsData
+      };
+    }
+  }
+
   // Add pagination info if this was a paginated request
   if (res.locals._page) {
     const totalCount = parseInt(res.getHeader('X-Total-Count') || res.locals.data.length || 0, 10);
@@ -175,7 +195,7 @@ router.render = (req, res) => {
   res.json({
     success: res.statusCode >= 200 && res.statusCode < 400,
     message: "Success",
-    data: res.locals.data,
+    data: responseData,
     meta: meta
   });
 };

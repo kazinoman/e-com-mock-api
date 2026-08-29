@@ -15,6 +15,12 @@ The `/products` endpoint is extremely powerful and supports standard querying, f
 - **Description**: Returns a paginated list of all products.
 - **Default Behavior**: Defaults to `page=1` and `limit=10`.
 
+### Get Product Details
+`GET /products/:id`
+- **Description**: Returns the full details of a specific product by its ID. Includes the `skus` array, rich `description`, `images`, `colors`, `specifications`, `seller` info, and `reviewsData`. 
+- **Dynamic Magic**: If you request a product that hasn't been manually enriched with details, the backend will randomly assign the rich details from one of the 3 templates (iPhone, Handbag, or Pixel) so your UI never looks broken!
+- **Example**: `GET /products/1`
+
 ### Searching & Filtering
 `GET /search?category=gadgets&subCategory=apple`
 - **`category`**: Filter by main category (e.g., `gadgets`, `bags`, `jewelry`)
@@ -88,3 +94,29 @@ These endpoints are designed specifically for rendering dynamic sections on your
 
 `DELETE /wishlists/:id`
 - **Description**: Remove an item from the wishlist by the wishlist item's ID.
+
+---
+
+## 7. Product Reviews
+
+`GET /reviews`
+- **Description**: Returns a list of reviews.
+- **Query Params**: `?productId=1` to get reviews for a specific product.
+- **Example**: `GET /reviews?productId=1`
+
+`POST /reviews`
+- **Description**: Add a new review for a product.
+- **Body**: JSON containing `productId`, `userId`, `rating`, `date`, and `comment`.
+- **Example Body**:
+  ```json
+  {
+    "productId": 1,
+    "userId": 1,
+    "rating": 5.0,
+    "date": "15 June, 2023",
+    "comment": "Great product!"
+  }
+  ```
+
+`DELETE /reviews/:id`
+- **Description**: Delete a review by its ID.

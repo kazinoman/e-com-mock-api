@@ -2,39 +2,235 @@
   "products": [
     {
       "id": 1,
-      "title": "iPhone 14 Pro Plus Max Black Edition",
+      "title": "iPhone 14 pro plus max - Global edition",
       "category": "gadgets",
       "subCategory": "apple",
       "brand": "Apple",
-      "price": 1234.99,
-      "originalPrice": 1234.99,
-      "rating": 4.9,
+      "price": 1163.99,
+      "originalPrice": 1163.99,
+      "rating": 4.5,
+      "reviewsCount": 12486,
       "badge": "Out of stock",
-      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
+      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&q=80"
+      ],
+      "skus": [
+        {
+          "id": "sku-1",
+          "sku": "IPH-14-PM-GLB-DG",
+          "color": "Dark Grey",
+          "price": 1163.99,
+          "stock": 50
+        },
+        {
+          "id": "sku-2",
+          "sku": "IPH-14-PM-GLB-LB",
+          "color": "Light Blue",
+          "price": 1163.99,
+          "stock": 10
+        },
+        {
+          "id": "sku-3",
+          "sku": "IPH-14-PM-GLB-PR",
+          "color": "Purple",
+          "price": 1183.99,
+          "stock": 0
+        },
+        {
+          "id": "sku-4",
+          "sku": "IPH-14-PM-GLB-BL",
+          "color": "Blue",
+          "price": 1163.99,
+          "stock": 5
+        },
+        {
+          "id": "sku-5",
+          "sku": "IPH-14-PM-GLB-GR",
+          "color": "Green",
+          "price": 1163.99,
+          "stock": 25
+        },
+        {
+          "id": "sku-6",
+          "sku": "IPH-14-PM-GLB-YE",
+          "color": "Yellow",
+          "price": 1163.99,
+          "stock": 2
+        },
+        {
+          "id": "sku-7",
+          "sku": "IPH-14-PM-GLB-WH",
+          "color": "White",
+          "price": 1163.99,
+          "stock": 100
+        },
+        {
+          "id": "sku-8",
+          "sku": "IPH-14-PM-GLB-BK",
+          "color": "Black",
+          "price": 1163.99,
+          "stock": 10
+        },
+        {
+          "id": "sku-9",
+          "sku": "IPH-14-PM-GLB-RD",
+          "color": "Red",
+          "price": 1200.00,
+          "stock": 0
+        },
+        {
+          "id": "sku-10",
+          "sku": "IPH-14-PM-GLB-OR",
+          "color": "Orange",
+          "price": 1163.99,
+          "stock": 4
+        }
+      ],
+      "colors": [
+        { "name": "Dark Grey", "hex": "#333333" },
+        { "name": "Light Blue", "hex": "#87CEEB" },
+        { "name": "Purple", "hex": "#8A2BE2" },
+        { "name": "Blue", "hex": "#0000FF" }
+      ],
+      "seller": {
+        "name": "Gadget Electronics",
+        "verified": true,
+        "rating": 4.9,
+        "logo": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=100&q=80"
+      },
+      "description": {
+        "text": "The iPhone 14 Pro Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.69 inches diagonally. The iPhone 14 Pro Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.69 inches diagonally.\n\nThe iPhone 14 Pro Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.69 inches diagonally. The iPhone 14 Pro Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.69 inches diagonally.\n\nThe iPhone 14 Pro Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.69 inches diagonally. The iPhone 14 Pro Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.69 inches diagonally.",
+        "images": [
+          "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=800&q=80"
+        ]
+      },
+      "specifications": [
+        { "label": "Brand", "value": "Apple" },
+        { "label": "Model Name", "value": "iPhone 14 Pro Max" },
+        { "label": "Display Size", "value": "6.7 inches" },
+        { "label": "Display Type", "value": "Super Retina XDR display" },
+        { "label": "Processor", "value": "A16 Bionic chip" },
+        { "label": "CPU", "value": "6-core CPU" },
+        { "label": "GPU", "value": "5-core GPU" },
+        { "label": "Main Camera", "value": "48MP" },
+        { "label": "Ultra Wide Camera", "value": "12MP" },
+        { "label": "Telephoto", "value": "12MP 2x & 3x" },
+        { "label": "Color", "value": "Deep Purple, Gold, Silver, Space Black" },
+        { "label": "Water Resistance", "value": "IP68 (maximum depth of 6 meters up to 30 minutes)" }
+      ],
+      "reviewsData": {
+        "average": 4.5,
+        "total": 12486,
+        "distribution": {
+          "5": 561,
+          "4": 70,
+          "3": 211,
+          "2": 12,
+          "1": 20
+        }
+      }
     },
     {
       "id": 2,
-      "title": "iPhone 14 Pro Plus Max Black Edition",
-      "category": "gadgets",
-      "subCategory": "apple",
-      "brand": "Apple",
-      "price": 1234.99,
-      "originalPrice": 1234.99,
-      "rating": 4.9,
+      "title": "Luxury Italian Leather Handbag",
+      "category": "bags",
+      "subCategory": "purse",
+      "brand": "Gucci",
+      "price": 899.99,
+      "originalPrice": 999.99,
+      "rating": 4.8,
+      "reviewsCount": 342,
       "badge": "Sale",
-      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500&q=80",
+        "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=500&q=80"
+      ],
+      "skus": [],
+      "colors": [
+        { "name": "Classic Brown", "hex": "#8B4513" }
+      ],
+      "seller": {
+        "name": "Luxury Bags Co.",
+        "verified": true,
+        "rating": 5.0,
+        "logo": "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=100&q=80"
+      },
+      "description": {
+        "text": "Experience the epitome of luxury with our Italian Leather Handbag. Handcrafted in Florence, this piece features premium full-grain leather that develops a beautiful patina over time. Perfect for everyday elegance or special occasions.\n\nSpacious interior with multiple compartments keeps you organized. Gold-tone hardware adds a touch of sophistication to this timeless design.",
+        "images": [
+          "https://images.unsplash.com/photo-1584916201218-f4242ceb4809?w=800&q=80"
+        ]
+      },
+      "specifications": [
+        { "label": "Material", "value": "100% Genuine Italian Leather" },
+        { "label": "Hardware", "value": "Gold-tone brass" },
+        { "label": "Dimensions", "value": "12\" W x 9\" H x 5\" D" },
+        { "label": "Strap Drop", "value": "6 inches" },
+        { "label": "Lining", "value": "Soft microsuede" },
+        { "label": "Closure", "value": "Magnetic snap" }
+      ],
+      "reviewsData": {
+        "average": 4.8,
+        "total": 342,
+        "distribution": { "5": 290, "4": 40, "3": 10, "2": 2, "1": 0 }
+      }
     },
     {
       "id": 3,
-      "title": "iPhone 14 Pro Plus Max Black Edition",
+      "title": "Google Pixel 8 Pro - Obsidian",
       "category": "gadgets",
-      "subCategory": "apple",
-      "brand": "Apple",
-      "price": 1234.99,
-      "originalPrice": 1234.99,
-      "rating": 4.9,
-      "badge": "5% off",
-      "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
+      "subCategory": "google",
+      "brand": "Google",
+      "price": 999.00,
+      "originalPrice": 999.00,
+      "rating": 4.6,
+      "reviewsCount": 2105,
+      "badge": "New",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
+      ],
+      "skus": [
+        { "id": "sku-p8-1", "sku": "PIX8-PRO-128-OBS", "color": "Obsidian", "price": 999.00, "stock": 100 },
+        { "id": "sku-p8-2", "sku": "PIX8-PRO-256-OBS", "color": "Obsidian", "price": 1059.00, "stock": 45 },
+        { "id": "sku-p8-3", "sku": "PIX8-PRO-512-OBS", "color": "Obsidian", "price": 1179.00, "stock": 10 }
+      ],
+      "colors": [
+        { "name": "Obsidian", "hex": "#1F2124" },
+        { "name": "Porcelain", "hex": "#F2F1EC" },
+        { "name": "Bay", "hex": "#87CEEB" }
+      ],
+      "seller": {
+        "name": "Google Store",
+        "verified": true,
+        "rating": 4.7,
+        "logo": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=100&q=80"
+      },
+      "description": {
+        "text": "Meet Pixel 8 Pro, the all-pro phone engineered by Google. It's sleek, sophisticated, and powerful, with a custom Google Tensor G3 chip. And it comes with 7 years of OS and security updates.\n\nThe immersive 6.7-inch Super Actua display makes everything sharp. The refresh rate intelligently adjusts between 1 and 120Hz for responsive performance. It has the best Pixel camera yet, giving you stunning photos and videos in any light.",
+        "images": [
+          "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&q=80"
+        ]
+      },
+      "specifications": [
+        { "label": "Display", "value": "6.7-inch Super Actua display (120Hz)" },
+        { "label": "Processor", "value": "Google Tensor G3" },
+        { "label": "RAM", "value": "12GB LPDDR5X" },
+        { "label": "Storage", "value": "128GB / 256GB / 512GB / 1TB" },
+        { "label": "Rear Camera", "value": "50MP Wide, 48MP Ultrawide, 48MP Telephoto (5x optical zoom)" },
+        { "label": "Front Camera", "value": "10.5MP" },
+        { "label": "Battery", "value": "5050 mAh, fast charging" },
+        { "label": "OS", "value": "Android 14 (7 years of updates)" }
+      ],
+      "reviewsData": {
+        "average": 4.6,
+        "total": 2105,
+        "distribution": { "5": 1500, "4": 405, "3": 100, "2": 50, "1": 50 }
+      }
     },
     {
       "id": 4,
@@ -767,7 +963,7 @@
       ]
     },
     "meta": {
-      "timestamp": "2026-08-25T06:32:35.762Z"
+      "timestamp": "2026-08-29T20:42:32.667Z"
     }
   },
   "users": [
@@ -824,6 +1020,125 @@
       "userId": 1,
       "productId": 6,
       "id": 2
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 8,
+      "id": 3
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 49,
+      "id": 4
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 43,
+      "id": 5
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 15,
+      "id": 6
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 6,
+      "id": 7
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 1,
+      "id": 8
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 34,
+      "id": 9
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 38,
+      "id": 10
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 31,
+      "id": 11
+    },
+    {
+      "userId": "test",
+      "productId": 999,
+      "id": 12
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 20,
+      "id": 13
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 14,
+      "id": 14
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 4,
+      "id": 15
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 26,
+      "id": 16
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 36,
+      "id": 17
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 29,
+      "id": 18
+    },
+    {
+      "userId": "3da54d45-3658-45d5-b7b3-f79fb2f91cbf",
+      "productId": 2,
+      "id": 19
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 1,
+      "rating": 5.0,
+      "date": "13 June, 2023",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "userId": 1,
+      "rating": 4.0,
+      "date": "13 June, 2023",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "userId": 1,
+      "rating": 4.0,
+      "date": "13 June, 2023",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 4,
+      "productId": 1,
+      "userId": 1,
+      "rating": 4.0,
+      "date": "13 June, 2023",
+      "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 }
