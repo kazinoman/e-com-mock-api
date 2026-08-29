@@ -233,6 +233,10 @@ server.use((req, res, next) => {
     req.query._order = req.query.order;
     delete req.query.order;
   }
+  if (req.query.rating) {
+    req.query.rating_gte = req.query.rating;
+    delete req.query.rating;
+  }
   
   next();
 });
