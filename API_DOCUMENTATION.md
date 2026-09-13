@@ -16,10 +16,10 @@ The `/products` endpoint is extremely powerful and supports standard querying, f
 - **Default Behavior**: Defaults to `page=1` and `limit=10`.
 
 ### Get Product Details
-`GET /products/:id`
+`GET /product/:id`
 - **Description**: Returns the full details of a specific product by its ID. Includes the `skus` array, rich `description`, `images`, `colors`, `specifications`, `seller` info, and `reviewsData`. 
 - **Dynamic Magic**: If you request a product that hasn't been manually enriched with details, the backend will randomly assign the rich details from one of the 3 templates (iPhone, Handbag, or Pixel) so your UI never looks broken!
-- **Example**: `GET /products/1`
+- **Example**: `GET /product/1`
 
 ### Searching & Filtering
 `GET /search?category=gadgets&subCategory=apple`

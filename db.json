@@ -21,72 +21,82 @@
         {
           "id": "sku-1",
           "sku": "IPH-14-PM-GLB-DG",
-          "color": "Dark Grey",
+          "color": "Midnight Dark Grey",
           "price": 1163.99,
-          "stock": 50
+          "stock": 50,
+          "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
         },
         {
           "id": "sku-2",
           "sku": "IPH-14-PM-GLB-LB",
-          "color": "Light Blue",
-          "price": 1163.99,
-          "stock": 10
+          "color": "Ocean Light Blue",
+          "price": 1143.99,
+          "stock": 10,
+          "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
         },
         {
           "id": "sku-3",
           "sku": "IPH-14-PM-GLB-PR",
-          "color": "Purple",
+          "color": "Deep Royal Purple",
           "price": 1183.99,
-          "stock": 0
+          "stock": 0,
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&q=80"
         },
         {
           "id": "sku-4",
           "sku": "IPH-14-PM-GLB-BL",
-          "color": "Blue",
+          "color": "Classic Blue",
           "price": 1163.99,
-          "stock": 5
+          "stock": 5,
+          "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
         },
         {
           "id": "sku-5",
           "sku": "IPH-14-PM-GLB-GR",
-          "color": "Green",
-          "price": 1163.99,
-          "stock": 25
+          "color": "Vibrant Green",
+          "price": 1153.99,
+          "stock": 25,
+          "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
         },
         {
           "id": "sku-6",
           "sku": "IPH-14-PM-GLB-YE",
-          "color": "Yellow",
+          "color": "Matte Yellow",
           "price": 1163.99,
-          "stock": 2
+          "stock": 2,
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&q=80"
         },
         {
           "id": "sku-7",
           "sku": "IPH-14-PM-GLB-WH",
-          "color": "White",
+          "color": "Glossy White",
           "price": 1163.99,
-          "stock": 100
+          "stock": 100,
+          "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
         },
         {
           "id": "sku-8",
           "sku": "IPH-14-PM-GLB-BK",
-          "color": "Black",
+          "color": "Radiant Black",
           "price": 1163.99,
-          "stock": 10
+          "stock": 10,
+          "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
         },
         {
           "id": "sku-9",
           "sku": "IPH-14-PM-GLB-RD",
-          "color": "Red",
+          "color": "Phantom Red",
           "price": 1200,
-          "stock": 0
+          "stock": 0,
+          "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500&q=80"
         },
         {
           "id": "sku-10",
           "sku": "IPH-14-PM-GLB-OR",
-          "color": "Orange",
+          "color": "Mystic Orange",
           "price": 1163.99,
-          "stock": 4
+          "stock": 4,
+          "image": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=500&q=80"
         }
       ],
       "colors": [
@@ -273,23 +283,26 @@
         {
           "id": "sku-p8-1",
           "sku": "PIX8-PRO-128-OBS",
-          "color": "Obsidian",
+          "color": "Midnight Obsidian",
           "price": 999,
-          "stock": 100
+          "stock": 100,
+          "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
         },
         {
           "id": "sku-p8-2",
           "sku": "PIX8-PRO-256-OBS",
-          "color": "Obsidian",
+          "color": "Ocean Obsidian",
           "price": 1059,
-          "stock": 45
+          "stock": 45,
+          "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
         },
         {
           "id": "sku-p8-3",
           "sku": "PIX8-PRO-512-OBS",
-          "color": "Obsidian",
+          "color": "Deep Royal Obsidian",
           "price": 1179,
-          "stock": 10
+          "stock": 10,
+          "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=500&q=80"
         }
       ],
       "colors": [

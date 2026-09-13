@@ -159,7 +159,7 @@ router.render = (req, res) => {
   };
   
   let responseData = res.locals.data;
-  const isSingleProduct = req.path.match(/^\/products\/\d+$/);
+  const isSingleProduct = req.url.match(/^\/products\/\d+(\?.*)?$/) || req.originalUrl.match(/^\/product\/\d+(\?.*)?$/);
   if (isSingleProduct && responseData && !responseData.images) {
     const templates = [1, 2, 3];
     const randomTemplateId = templates[Math.floor(Math.random() * templates.length)];
@@ -210,6 +210,11 @@ server.use((req, res, next) => {
   if (req.path === '/search') {
     // Rewrite path so json-server fetches from the 'products' table
     req.url = req.url.replace(/^\/search/, '/products');
+  }
+  
+  if (req.path.match(/^\/product\/\d+$/)) {
+    // Rewrite path so json-server fetches from the 'products' table
+    req.url = req.url.replace(/^\/product\//, '/products/');
   }
 
   // Default to page 1, limit 10 for products/search if no pagination is provided
